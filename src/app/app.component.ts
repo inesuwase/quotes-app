@@ -10,6 +10,6 @@ export class AppComponent {
   quotes:string[];
 
   constructor(){
-    this.quotes = ['Til your good is better and your better is best','Do not let yesterday take up too much of today.']
+    this.quotes = ['Til your good is better and your better is best.','Do not let yesterday take up too much of today.','Once you replace negative thoughts with positive ones, you will start having positive results.']
   } 
 }
