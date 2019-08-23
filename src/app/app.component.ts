@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'quotes';
+  // quotes = 'Create your quote';
+  quotes:string[];
+
+  constructor(){
+    this.quotes = ['Til your good is better and your better is best','Do not let yesterday take up too much of today.']
+  } 
 }
