@@ -1,27 +1,29 @@
 # Quotes
+designed by Uwase Ines
+## Usage
+This application of Quotes allows a user to create an application where users can create quotes and have those quotes voted on whether they are terrible or are inspirational.
+## Description
+Quotes-app is a web application that displays a page whichallows a user to create an application where users to create quotes of their will and have those quotes voted on whether they are terrible or are inspirational.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.2.
+### Behavior Drive Development
+1.The user is able to Create a new quote.
 
-## Development server
+2.The user is able to Upvote or downvote a quote.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+3.The user is able to Delete a quote.
 
-## Code scaffolding
+4.The user is able to see the number of upvotes and number of downvotes for each quote.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Technologies
+Angular CLI
+HTML 
+Javascript 
+CSS 
+jQuery
+bootstrap
 
-## Build
+### CONTACT Details
+phone number: +250781104953 E-mail: uwaseines7@gmail.com
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+### License
+Copyright (c) 2019 Ines Uwase
