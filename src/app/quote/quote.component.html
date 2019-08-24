@@ -1,12 +1,14 @@
 <!-- <p>quote works!</p> -->
 <div>
         <h1>  Welcome to Quotes!</h1>
-        <div>
-                <p>create your own desired quote</p>
-              <div>
+     <div>
+       <p>Create your own desired quote</p>
+      <div>
         <ul>
           <li *ngFor='let quote of quotes'>
             {{quote.name}}
+            <app-quote-detail [goal]='quote'></app-quote-detail>
           </li>
         </ul>
       </div>
+    <router-outlet></router-outlet> 
