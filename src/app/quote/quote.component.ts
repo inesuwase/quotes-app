@@ -6,7 +6,7 @@ import { Quote } from '../quote';
   templateUrl: './quote.component.html',
   styleUrls: ['./quote.component.css']
 })
-export class GoalComponent implements OnInit {
+export class QuoteComponent implements OnInit {
 
   quotes: Quote = [
     {id:1, name:'Life is not about finding yourself.'},
