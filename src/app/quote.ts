@@ -5,9 +5,11 @@ export class Quote {
         
     
     constructor(
-        public Quote: string,
+        // public Quote: string,
+        public quote: string,
         public name: string,
-        public Author: string , 
+        public author: string , 
+        public person:string,
         public completeDate: Date,
         ){
     this.showAuthor=false;
