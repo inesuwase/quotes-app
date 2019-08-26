@@ -7,11 +7,9 @@ import{Quote} from './quote';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  quotes:Quote []= [
-    {id:1, name:'Til your good is better and your better is best'},
-    {id:2,name:'You learn more from failure than from success.'},
-    {id:3,name:'The pessimist sees difficulty in every opportunity.'},
-    {id:4,name:'Life is not about finding yourself.'},
-  ];
+  // quotes:Quote []= [
+  //   new Quote(1, 'Life is not about finding yourself.','Uwase'),
+  //   new Quote(2, 'Do not let yesterday take up too much of today', 'Ines'),
+  // ];
 
 }
